@@ -15,7 +15,7 @@ class ServiceConfirmationFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.service_confirmation, container, false)
 
-        val customerName = arguments?.getString("customerNa1me")
+        val customerName = arguments?.getString("customerName")
         val customerEmail = arguments?.getString("customerEmail")
         val selectedBarber = arguments?.getString("selectedBarber")
         val selectedService = arguments?.getString("selectedService")
